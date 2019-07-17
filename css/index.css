@@ -246,6 +246,10 @@ button:active {
 		width: 93%;
 		margin: auto;
 	}
+
+	.logo {
+		align-self: stretch;
+	}
 	.cta img {
 	  display: none;
 	}
