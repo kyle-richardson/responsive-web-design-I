@@ -149,6 +149,7 @@ button {
 	font-size: 13px;
 	margin: 0;
 	border: 1px solid black;
+	background-color: white;
 }
 button:hover {
 	background-color: lightblue;
@@ -278,6 +279,15 @@ button:active {
 		height: auto;
 	} 
 
+	.services-info-img {
+		width: 99%;
+		height: auto;
+	}
+	.services-header-img {
+		width: 99%;
+		height: auto;
+	}
+
 }
 
 @media screen and (max-width: 500px) {
@@ -325,15 +335,27 @@ button:active {
 		padding: 15px 0;
 	}
 	
+	
 	.boxes {
 	  display: flex;
 	  flex-direction: column;
+	  margin: auto;
 
 	}
 	.lower-content {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
+		margin: 30px 0;
 	}
+
+	.boxes .single-box {
+		width: 99%;
+	}
+	.lower-content div {
+		width: 99%;
+		margin: 10px 0;
+	} 
+
   } 
 
   
