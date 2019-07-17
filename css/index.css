@@ -242,20 +242,37 @@ button:active {
 }
 
 @media screen and (max-width: 800px) {
+
 	.container {
 		width: 93%;
 		margin: auto;
 	}
 
-	.logo {
-		align-self: stretch;
+	header nav {
+		flex-wrap: wrap;
 	}
+
+	#logo1 {
+		order:-1;
+		align-self: stretch;
+		width: 100%;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.cta .title {
+		margin: auto;
+	}
+
 	.cta img {
 	  display: none;
 	}
-	.cta {
+
+	.cta{
+		margin: 50px 0;
 		justify-content: center;
 	}
+
 	.main-content .middle-img {
 		width: 99%;
 		height: auto;
@@ -276,6 +293,7 @@ button:active {
         flex-direction: column;
         align-items: stretch;
 		justify-content: center;
+		margin: 0 -3.5%;
     }
 
     header nav a {
@@ -283,13 +301,9 @@ button:active {
 		text-align: center;
 		padding: 10px 0;
 	}
-	
-	.cta{
-		margin: 40px 0;
-	}
 
-	.cta .title {
-		margin: auto;
+	#logo1 {
+		margin:auto;
 	}
 
 	.main-content .above-image {
@@ -302,7 +316,6 @@ button:active {
 		flex-direction: column;
 	
 	}
-	
 	.above-image div {
 		width:99%;
 		padding: 15px 0;
