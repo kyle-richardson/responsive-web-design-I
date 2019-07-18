@@ -207,6 +207,7 @@ button:active {
  flex-flow: row wrap;
  justify-content: space-between;
 }
+
 .lower-content {
 	display: flex;
 	flex-direction: row;
@@ -232,8 +233,6 @@ button:active {
 
 }
 
-
-
 .lower-content div {
 	width: 48%
 } 
@@ -251,6 +250,7 @@ button:active {
 
 	header nav {
 		flex-wrap: wrap;
+		margin: auto;
 	}
 
 	#logo1 {
@@ -275,16 +275,16 @@ button:active {
 	}
 
 	.main-content .middle-img {
-		width: 99%;
+		width: 100%;
 		height: auto;
 	} 
 
 	.services-info-img {
-		width: 99%;
+		width: 100%;
 		height: auto;
 	}
 	.services-header-img {
-		width: 99%;
+		width: 100%;
 		height: auto;
 	}
 
@@ -295,9 +295,6 @@ button:active {
         width: 93%;
         margin: auto;
     }
-    /* .cta img {
-        display: none;
-      } */
       header nav {
         display: flex;
         flex-direction: column;
@@ -327,11 +324,11 @@ button:active {
 	
 	}
 	.above-image div {
-		width:99%;
+		width: 100%;
 		padding: 15px 0;
 	}
 	.below-image div {
-		width:99%;
+		width: 100%;
 		padding: 15px 0;
 	}
 	
@@ -349,10 +346,10 @@ button:active {
 	}
 
 	.boxes .single-box {
-		width: 99%;
+		width: 100%;
 	}
 	.lower-content div {
-		width: 99%;
+		width: 100%;
 		margin: 10px 0;
 	} 
 
